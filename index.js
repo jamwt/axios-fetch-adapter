@@ -1,9 +1,9 @@
 import axios from 'axios';
-import settle from 'axios/unsafe/core/settle';
-import buildURL from 'axios/unsafe/helpers/buildURL';
-import buildFullPath from 'axios/unsafe/core/buildFullPath';
-import * as browserUtils from 'axios/unsafe/platform/browser';
-import * as utils from 'axios/unsafe/utils';
+import settle from 'axios/unsafe/core/settle.js';
+import buildURL from 'axios/unsafe/helpers/buildURL.js';
+import buildFullPath from 'axios/unsafe/core/buildFullPath.js';
+import * as browserUtils from 'axios/unsafe/platform/browser.js';
+import * as utils from 'axios/unsafe/utils.js';
 
 /**
  * - Create a request object
